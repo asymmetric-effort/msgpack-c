@@ -70,7 +70,7 @@ IF (MSGPACK_USE_BOOST)
     SET (Boost_USE_MULTITHREADED ON)
 
     IF (MSGPACK_USE_STATIC_BOOST)
-        MESSAGE (STATUS "Staticly linking with Boost")
+        MESSAGE (STATUS "Statically linking with Boost")
         SET (Boost_USE_STATIC_LIBS TRUE)
     ELSE ()
         MESSAGE (STATUS "Dynamically linking with Boost")
